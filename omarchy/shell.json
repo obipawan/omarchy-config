@@ -1,0 +1,58 @@
+{
+  "bar": {
+    "centerAnchor": "pawan.clock",
+    "layout": {
+      "center": [
+        {
+          "id": "obi.stats",
+          "refreshSeconds": "5"
+        }
+      ],
+      "left": [
+        {
+          "id": "pawan.workspaces"
+        }
+      ],
+      "right": [
+        {
+          "id": "omarchy.tray"
+        },
+        {
+          "autoHideSeconds": "10",
+          "id": "chevron-left",
+          "type": "qml"
+        },
+        {
+          "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "omarchy.monitor"
+        },
+        {
+          "id": "omarchy.power"
+        },
+        {
+          "id": "digitalbase.openrouter-plus-improved"
+        },
+        {
+          "id": "omarchy.network"
+        },
+        {
+          "id": "omarchy.audio"
+        },
+        {
+          "id": "pawan.clock",
+          "format": "ddd d MMM h:mm"
+        }
+      ]
+    },
+    "position": "top",
+    "transparent": false
+  },
+  "idle": {
+    "lock": 300,
+    "screensaver": 150
+  },
+  "plugins": [],
+  "version": 1
+}

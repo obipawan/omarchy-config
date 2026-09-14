@@ -1,0 +1,9 @@
+# Secrets / live state — never commit these
+omarchy/agents/openrouter.json
+*.bak
+*.bak.*
+themes/*/*.bak*
+
+# Local editor / OS cruft
+.DS_Store
+*.swp
