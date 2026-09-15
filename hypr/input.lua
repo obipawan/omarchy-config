@@ -36,7 +36,8 @@ hl.config({
       clickfinger_behavior = true,
 
       -- Control the speed of your scrolling.
-      scroll_factor = 0.2,
+      -- Higher = less friction / more distance per swipe (0.2 felt sticky).
+      scroll_factor = 0.5,
 
       -- Enable the touchpad while typing.
       disable_while_typing = false,
