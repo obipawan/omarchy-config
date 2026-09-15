@@ -10,7 +10,10 @@ hl.config({
     kb_options = "compose:caps,shift:both_capslock_cancel,grp:alts_toggle",
 
     -- Use a specific keyboard variant if needed (e.g. intl for international keyboards).
-    kb_variant = "intl",
+    -- NOTE: 'intl' is NOT used — it turns " and ' into dead keys (causing the quote to wait
+    -- combine with a vowel -> accented char). With compose:caps active we get accented
+    -- chars via Compose instead, and " ' type normally.
+    kb_variant = "",
 
     -- Change speed of keyboard repeat.
     repeat_rate = 40,
